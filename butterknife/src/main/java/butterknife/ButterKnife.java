@@ -18,6 +18,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import android.support.compat.BuildConfig;
 
 /**
  * Field and method binding for Android views. Use this class to simplify finding views and
@@ -108,7 +109,7 @@ public final class ButterKnife {
 
   /** Control whether debug logging is enabled. */
   public static void setDebug(boolean debug) {
-    ButterKnife.debug = debug;
+    ButterKnife.debug = BuildConfig.DEBUG;
   }
 
   /**
