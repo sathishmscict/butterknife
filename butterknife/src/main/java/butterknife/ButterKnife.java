@@ -18,7 +18,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import android.support.compat.BuildConfig;
+import android.arch.lifecycle.BuildConfig;
 
 /**
  * Field and method binding for Android views. Use this class to simplify finding views and
